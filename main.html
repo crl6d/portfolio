@@ -3,7 +3,7 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="respons.css">
     <meta charset="UTF-8">
@@ -14,29 +14,31 @@
 
     <div class="holder">
         <header class="header_holder">
-            <div class="header">  
-                <div class="header_el">Main</div>
-                <div class="header_el">Skills</div>
-                <div class="header_el">About Me</div>
-                <div class="header_el">Contacts</div>
-            </div>    
+            <nav class="header">
+                <li>Main</li>
+                <li>Skills</li>
+                <li>About Me</li>
+                <li>Contacts</li>
+            </nav>
         </header>
 
-        
-        <div class="h">
+        <main>
+        <h1 class="h">
             Hello, I am Kirill <br> Front-end Developer
-            <div class="contacts">
-                <div class="contact"><img src="./assets/github.svg" alt="">Github</div>
-                <div class="contact"><img src="./assets/mail.svg" alt="">Mail</div>
+        </h1>
+        <div class="contacts">
+            <div class="contact">
+                <img src="./assets/github.svg" alt="">
+                <p>Github</p>
             </div>
-            <div class="about_small">I am a young front-end developer with a desire to improve my skills</div>
+            <div class="contact"><img src="./assets/mail.svg" alt="">Mail</div>
         </div>
-
+        <p class="about_small">I am a young front-end developer with a desire to improve my skills</p>
+        </main>
 
         <div class="skills">
             <div class="text">My Skills</div>
             <div class="skill_boxes">
-                
                 <div class="skill_box">
                     <img src="./assets/react.svg" alt="">
                     <div>React JS</div>
@@ -63,12 +65,11 @@
 
         <div class="about_big">
             <div class="text">About me</div>
-
-            <div class="about_text">My name is Kirill, I am currently residing in Germany, but was originally born in Russia. 
+            <p class="about_text">My name is Kirill, I am currently residing in Germany, but was originally born in Russia.
                 I specialize in Front-end development. I am dedicated to continuous learning
                  and strive to expand my knowledge daily. Please feel free to reach out if you 
                  require any assistance or have specific needs.
-            </div>
+            </p>
 
         </div>
 
