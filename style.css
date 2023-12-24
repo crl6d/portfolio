@@ -15,6 +15,7 @@ body {
     font-size: 48px;
 }
 
+
 .holder {
     margin: 0 auto;
     max-width: 900px;
@@ -34,6 +35,8 @@ body {
     border-radius: 20px;
     position: fixed;
     background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     display: flex;
     gap: 80px;
     justify-content: center;
@@ -55,14 +58,15 @@ body {
     font-size: 60px;
 }
 
-.contacts {
+
+.links {
     display: flex;
     justify-content: flex-start;
     margin-top: 20px;
     gap: 10px;
 }
 
-.contact {
+.link {
     cursor: pointer;
     background-color: rgba(226, 226, 226, 0.10);
     border-radius: 50px;
@@ -77,17 +81,16 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.contact img {
+.link img {
     width: 25px;
     margin-right: 10px;
 }
-.contact:hover {
+.link:hover {
     background-color: rgba(187, 187, 187, 0.2);
 }
 
 .about_small {
     margin-top: 20px;
-    font-size: 14px;
     font-weight: lighter;
 }
 
@@ -101,6 +104,7 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .skill_box {
     height: 400px;
     width: 300px;
@@ -135,5 +139,27 @@ body {
 .about_text{
     display: flex;
     width: 550px;
-    margin: 10px auto;
+    margin: 50px auto;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.contacts span{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
 }
