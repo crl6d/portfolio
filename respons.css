@@ -1,0 +1,11 @@
+@media only screen and (max-width: 890px) {
+    .header {
+        display: none;
+    }
+
+    .h{
+        margin-top: 100px;
+    }
+}
+
+
