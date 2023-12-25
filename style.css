@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .text {
     font-size: 48px;
+    margin-top: 200px;
 }
 
 
@@ -22,12 +24,17 @@ body {
     padding: 0 20px;
 }
 
+.active {
+    color: #ffffff;
+}
+
 .header_holder {
     display: flex;
     justify-content: center;
 }
 
 .header {
+    color: #ffffff;
     height: 60px;
     width: 100%;
     max-width: 800px;
@@ -41,6 +48,7 @@ body {
     gap: 80px;
     justify-content: center;
     align-items: center;
+    z-index: 2;
 }
 
 .header li{
@@ -94,10 +102,6 @@ body {
     font-weight: lighter;
 }
 
-.skills {
-    margin-top: 200px;
-}
-
 .skill_boxes {
     margin-top: 70px;
     display: flex;
@@ -132,10 +136,6 @@ body {
     margin-bottom: 30px;
 }
 
-
-.about_big{
-    margin-top: 100px;
-}
 .about_text{
     display: flex;
     width: 550px;
@@ -162,4 +162,5 @@ body {
 footer{
     height: 100px;
     width: 100%;
+    padding-bottom: 100px;
 }
