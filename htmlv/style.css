@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #171717;
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: #ffffff;
+}
+
+.text {
+    font-size: 48px;
+    margin-top: 200px;
+}
+
+
+.holder {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
+.header_holder {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    color: #ffffff;
+    height: 60px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    border-radius: 20px;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.header li{
+   list-style-type: none;
+   text-decoration: none;
+}
+
+h1 {
+    margin-top: 200px;
+    display: flex;
+    line-height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.link {
+    cursor: pointer;
+    background-color: rgba(226, 226, 226, 0.10);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.link img {
+    width: 25px;
+    margin-right: 10px;
+}
+.link:hover {
+    background-color: rgba(187, 187, 187, 0.2);
+}
+
+.about_small {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+.skill_boxes {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill_box {
+    height: 400px;
+    width: 300px;
+    margin: 30px 30px;
+    background-color: rgba(136, 136, 136, 0.1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    will-change: transform, background-color;
+    transition: all 0.3s ease; /* добавлены переходы */
+}
+
+.skill_box:hover {
+    background-color: rgba(136, 136, 136, 0.15); /* изменен цвет фона при наведении */
+    transform: translate(0, -4px);
+
+}
+
+.skill_box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    display: flex;
+    width: 550px;
+    margin: 50px auto;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+
+.contacts span{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.con{
+    display: flex;
+    justify-content: center;
+}
+
+
+footer{
+    height: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+}
