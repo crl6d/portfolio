@@ -50,7 +50,19 @@ body {
 .header li{
    list-style-type: none;
    text-decoration: none;
+   cursor: pointer;
+   opacity: 0.8;
+   transition: 0.3s ease all;
 }
+
+.header li:hover{
+    opacity: 1;
+}
+
+.header .active {
+    opacity: 1;
+}
+
 
 h1 {
     margin-top: 200px;

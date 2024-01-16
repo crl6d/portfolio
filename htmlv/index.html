@@ -9,20 +9,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
     <title>Document</title>
+    <script src="script.js"></script>
 </head>
 <body>
 
     <div class="holder">
         <header class="header_holder">
             <nav class="header">
-                <li>Main</li>
-                <li>Skills</li>
-                <li>About Me</li>
-                <li>Projects</li>
+                <li onclick="scrollToSection('section1')" class="active header_btn">Main</li>
+                <li onclick="scrollToSection('section2')" class="header_btn">Skills</li>
+                <li onclick="scrollToSection('section3')" class="header_btn">About Me</li>
+                <li onclick="scrollToSection('section4')" class="header_btn">Projects</li>
             </nav>
         </header>
 
-    <section>
+    <section id="section1">
         <h1>
             Hello, I am Kirill <br> Front-end Developer
         </h1>
@@ -35,7 +36,7 @@
 
 
     
-        <section class="skills">
+        <section class="skills" id="section2">
             <p class="text">My Skills</p>
             <div class="skill_boxes">
                 <div class="skill_box">
@@ -62,7 +63,7 @@
         </section>
 
 
-        <section class="about_big">
+        <section class="about_big" id="section3">
             <p class="text">About me</p>
             <p class="about_text">My name is Kirill, I am currently residing in Germany, but was originally born in Russia.
                 I specialize in Front-end development. I am dedicated to continuous learning
@@ -71,7 +72,7 @@
             </p>
         </section>
 
-        <section class="projects">
+        <section class="projects" id="section4">
             <p class="text">Projects</p>
             <div class="slider"></div>
         </section>
@@ -83,6 +84,5 @@
                 <p class="con">katamankk@gmail.com</p>
         </footer>
     </div>
-    <script src="script.js"></script>
 </body>
 </html>
