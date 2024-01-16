@@ -1,0 +1,37 @@
+    @media only screen and (max-width: 890px) {
+        .header {
+            display: none;
+        }
+
+        .h{
+            margin-top: 100px;
+        }
+    }
+    
+    @media only screen and (max-width: 500px) {
+        *{
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .holder{
+            width:90%;
+            margin-left: 0;
+            margin-right: 0;
+            padding: 10;
+        }
+
+        .about_text{
+            width: 90%;
+        }
+
+        .skill_box{
+            height: 300px;
+        }
+
+        .invisible{
+            display: none;
+        }
+    }
+
+

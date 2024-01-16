@@ -54,6 +54,7 @@ body {
 .header li{
    list-style-type: none;
    text-decoration: none;
+<<<<<<< HEAD:style.css
 }
 
 .h {
@@ -67,6 +68,21 @@ body {
 }
 
 
+=======
+}
+
+h1 {
+    margin-top: 200px;
+    display: flex;
+    line-height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+
+>>>>>>> 5c602d9a6c794b409a4d4a828c7cd88b40633416:htmlv/style.css
 .links {
     display: flex;
     justify-content: flex-start;
