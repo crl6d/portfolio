@@ -1,3 +1,9 @@
+.holder {
+    margin: 0 auto;
+    max-width: 900px;
+    padding: 0 20px;
+}
+
 .header_holder {
     display: flex;
     justify-content: center;
@@ -24,4 +30,15 @@
 .header li{
    list-style-type: none;
    text-decoration: none;
+   cursor: pointer;
+   opacity: 0.8;
+   transition: 0.3s ease all;
+}
+
+.header li:hover{
+    opacity: 1;
+}
+
+.header .active {
+    opacity: 1;
 }

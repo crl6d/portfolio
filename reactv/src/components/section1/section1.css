@@ -1,0 +1,44 @@
+.links {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.link {
+    cursor: pointer;
+    background-color: rgba(226, 226, 226, 0.10);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+
+    font-size: 12px;
+    font-weight: lighter;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.link img {
+    width: 25px;
+    margin-right: 10px;
+}
+.link:hover {
+    background-color: rgba(187, 187, 187, 0.2);
+}
+
+.about_small {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+h1 {
+    margin-top: 200px;
+    display: flex;
+    line-height: 60px;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 60px;
+}

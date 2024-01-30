@@ -22,3 +22,13 @@ body {
   font-size: 48px;
   margin-top: 200px;
 }
+
+h1 {
+  margin-top: 200px;
+  display: flex;
+  line-height: 60px;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 60px;
+}
