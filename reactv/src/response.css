@@ -1,37 +1,39 @@
 @media only screen and (max-width: 890px) {
-    .header {
+    
+    .header_holder {
+      display: none;
+    }
+  
+    .h {
+      margin-top: 100px;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+
+    .invisible {
         display: none;
+      }
+
+    * {
+      margin: 0;
+      font-size: 24px;
     }
-
-    .h{
-        margin-top: 100px;
+  
+    .holder {
+      width: 90%;
+      margin-left: 0;
+      margin-right: 0;
+      padding: 10px; /* Make sure to include the unit (e.g., px) */
     }
-}
-
-@media only screen and (max-width: 500px) {
-    *{
-        margin: 0;
-        font-size: 24px;
+  
+    .about_text {
+      width: 90%;
     }
-
-    .holder{
-        width:90%;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 10;
+  
+    .skill_box {
+      height: 300px;
     }
-
-    .about_text{
-        width: 90%;
-    }
-
-    .skill_box{
-        height: 300px;
-    }
-
-    .invisible{
-        display: none;
-    }
-}
-
-
+  
+    
+  }

@@ -3,8 +3,8 @@ import '../header/header.css'
 
 function Header() {
   return (
-    <header class="header_holder">
-            <nav class="header">
+    <header className="header_holder">
+            <nav className="header">
                 <li>Main</li>
                 <li>Skills</li>
                 <li>About Me</li>

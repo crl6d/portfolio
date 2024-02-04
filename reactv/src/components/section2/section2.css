@@ -1,0 +1,41 @@
+
+.skill_boxes {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    behavior: smooth;
+}
+
+.skill_box {
+    height: 400px;
+    width: 300px;
+    margin: 30px 30px;
+    background-color: rgba(136, 136, 136, 0.1);
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    will-change: transform, background-color;
+    transition: all 0.3s ease; /* добавлены переходы */
+}
+
+.skill_box:hover {
+    background-color: rgba(136, 136, 136, 0.15); /* изменен цвет фона при наведении */
+    transform: translate(0, -4px);
+
+}
+
+.skill_box img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 30px;
+}
+
+.about_text{
+    display: flex;
+    width: 550px;
+    margin: 50px auto;
+}
