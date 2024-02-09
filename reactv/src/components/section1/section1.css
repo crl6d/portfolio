@@ -1,3 +1,44 @@
+
+#section1 {
+    margin-top: 370px;
+    opacity: 0;
+    transform: translateY(-20px); /* Начальное смещение */
+    animation: fadeIn 1s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .frontend-text {
+    position: relative;
+  }
+  
+  .frontend-text::before {
+    content: 'Front-end Developer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #ff00ff69;
+    text-shadow: 0 -10px 60px #ff00ff56, 0 0 30px #ff00ff59, 0 0 20px #864186, 0 0 20px #793979; /* Уменьшенная интенсивность свечения */
+  }
+
+
+#section1 h1{
+    letter-spacing: 2px;
+    font-size: 60px;
+    color: #fff;
+    line-height: 70px;
+}
+
 .links {
     display: flex;
     justify-content: flex-start;
@@ -7,7 +48,7 @@
 
 .link {
     cursor: pointer;
-    background-color: rgba(226, 226, 226, 0.10);
+    background-color: rgba(27, 27, 27, 0.9);
     border-radius: 50px;
     display: flex;
     justify-content: center;
@@ -25,7 +66,7 @@
     margin-right: 10px;
 }
 .link:hover {
-    background-color: rgba(187, 187, 187, 0.2);
+    background-color: rgba(27, 27, 27, 0.7);
 }
 
 .about_small {

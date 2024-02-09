@@ -10,7 +10,7 @@ function Section1() {
     <>
     <section id="section1">
         <h1>
-            Hello, I am Kirill <br /> Front-end Developer
+            <span className='invisible'>Hello, I am </span>KIRILL <br /> <span className="frontend-text">Front-end Developer</span>
         </h1>
         <div class="links">
             <div class="link"><img src={Github} alt="" /><p>Github</p></div>

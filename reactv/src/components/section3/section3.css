@@ -1,0 +1,5 @@
+.about_text{
+    display: flex;
+    width: 550px;
+    margin: 50px auto;
+}

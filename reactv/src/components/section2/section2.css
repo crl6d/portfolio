@@ -5,25 +5,26 @@
     flex-wrap: wrap;
     justify-content: center;
     behavior: smooth;
+    z-index: 2;
 }
 
 .skill_box {
     height: 400px;
     width: 300px;
     margin: 30px 30px;
-    background-color: rgba(136, 136, 136, 0.1);
+    background-color: rgba(27, 27, 27, 0.9);
     border-radius: 35px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
+    cursor:default;
     will-change: transform, background-color;
     transition: all 0.3s ease; /* добавлены переходы */
 }
 
 .skill_box:hover {
-    background-color: rgba(136, 136, 136, 0.15); /* изменен цвет фона при наведении */
+    background-color: rgba(27, 27, 27, 1); /* изменен цвет фона при наведении */
     transform: translate(0, -4px);
 
 }
