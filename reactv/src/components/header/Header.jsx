@@ -1,9 +1,10 @@
 import React, { useRef } from 'react';
 import '../header/header.css';
-import { Link } from 'react-router-dom';
+import { Link, useHistory} from 'react-router-dom';
 
 function Header() {
   const headerBtns = useRef([]);
+  const history = useHistory(); // вызываем useHistory как хук
 
   const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
@@ -20,14 +21,19 @@ function Header() {
     document.getElementById(sectionId).classList.add("active");
   };
 
+  const handleBlogClick = () => {
+    history.push('/blog'); // исправлено на вызов history.push
+  };
+
   return (
+    
     <header className="header_holder">
       <nav className="header">
         <li ref={(el) => (headerBtns.current[0] = el)} onClick={() => scrollToSection('section1')} className="active header_btn">Main</li>
         <li ref={(el) => (headerBtns.current[1] = el)} onClick={() => scrollToSection('section2')} className="header_btn">Skills</li>
         <li ref={(el) => (headerBtns.current[2] = el)} onClick={() => scrollToSection('section3')} className="header_btn">About Me</li>
         <li ref={(el) => (headerBtns.current[3] = el)} onClick={() => scrollToSection('section4')} className="header_btn">Projects</li>
-        <li>Blog</li>
+        <li className="header_btn" onClick={handleBlogClick}>Blog</li>
       </nav>
     </header>
   );
